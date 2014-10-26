@@ -3,5 +3,5 @@ class Line < Cask
   homepage 'http://line.naver.jp'
   version  'latest'
   link     'Line.app'
-  no_checksum
+  sha256    :no_check
 end
